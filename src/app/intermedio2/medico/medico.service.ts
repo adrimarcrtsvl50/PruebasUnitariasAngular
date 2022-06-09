@@ -7,7 +7,9 @@ import { Injectable } from '@angular/core';
 export class MedicoService {
 
   constructor(public http:HttpClient) {  }
-  getMedico(){
-    return this.http.get('..');
+  getMedicos() {
+
+    return this.http.get('...');
+
   }
 }
